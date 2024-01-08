@@ -152,6 +152,15 @@ ul.linkedin {
   color: gray;
 }
 
+#link2 {
+  text-decoration: none;
+  color: gray;
+}
+
+#link2:hover {
+  color: black;
+}
+
 .works ul li+li {
   margin-top: 0.7rem;
 }
