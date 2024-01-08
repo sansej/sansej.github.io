@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8" />
@@ -17,31 +17,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 	<title>CV</title>
 	<link rel="stylesheet" href="main.css">
-	<script>
-        function changeLanguage() {
-            var languageSelect = document.getElementById("languageSelect");
-            var contactsTextSkills = document.querySelector("contacts__text_skills");
-
-            if (languageSelect.value === "pl") {
-                contactsTextSkills.innerText = "umiejętności"; // Замените текст на польский, который вы хотите использовать
-                // updateH1Text("h1-1", "Nowy tytuł 1");
-                // updateH1Text("h1-2", "Nowy tytuł 2");
-                // Добавьте дополнительные строки, чтобы обновить другие заголовки
-            } else {
-                contactsTextSkills.innerText = "skills"; // Вернуть оригинальный текст заголовка
-                // updateH1Text("h1-1", "Original Title 1");
-                // updateH1Text("h1-2", "Original Title 2");
-                // Добавьте дополнительные строки, чтобы обновить другие заголовки
-            }
-        }
-
-        // function updateH1Text(elementId, newText) {
-        //     var h1Element = document.getElementById(elementId);
-        //     if (h1Element) {
-        //         h1Element.innerText = newText;
-        //     }
-        // }
-    </script>
 </head>
 
 <body>
@@ -54,7 +29,7 @@
 				</figure>
 			</header>
 			<article class="contacts">
-				<h3 id="contact me" class="contacts__text">contact me</h3>
+				<h3 class="contacts__text">contact me</h3>
 				<div class="underlined"></div>
 				<ul class="phone">
 					<li class="phone__icon"><i class="fas fa-phone-volume"></i></li>
@@ -92,7 +67,7 @@
 				</ul>
 			</article>
 			<article class="skills">
-				<h3 id="skills" class="contacts__text_skills">skills</h3>
+				<h3 class="contacts__text">skills</h3>
 				<div class="underlined"></div>
 				<ul class="skills_list">
 					<li>Altium Designer</li>
@@ -107,7 +82,7 @@
 					<li>English: A2, Polish: A2, Belarusian: Native</li>
 				</ul>
 				<!-- <div> -->
-				<h3 id="soft skills" class="contacts__text">soft skills</h3>
+				<h3 class="contacts__text">soft skills</h3>
 				<!-- <div class="underlined"></div> -->
 				<ul class="soft_skills_list">
 					<li>Leadership</li>
@@ -117,7 +92,7 @@
 				</ul>
 				<!-- </div> -->
 				<div id="work-examples">
-					<h3 id="work examples" class="contacts__text">work examples</h3>
+					<h3 class="contacts__text">work examples</h3>
 					<div class="underlined"></div>
 					<nav class="works">
 						<ul>
@@ -141,17 +116,10 @@
 		</section>
 		<section class="about-me">
 			<h1>Aliaksandr Simahastsitski</h1>
-			<div class="language-switcher" id="languageSwitcher">
-            	<span id="language" class="language-label">Language:</span>
-            	<select id="languageSelect" onchange="changeLanguage()">
-					<option value="pl">PL</option>
-                	<option value="eng">ENG</option>
-            	</select>
-        	</div>
-			<h4 id="engineer">Electronics engineer</h4>
+			<h4 >Electronics engineer</h4>
 			<div class="underlined-grey"></div>
 			<article class="education">
-				<h2 id="education">Education</h2>
+				<h2 >Education</h2>
 				<div class="description">
 					<div class="description__item1">
 						<div>
@@ -162,9 +130,9 @@
 						</div>
 					</div>
 					<div class="description__item2">
-						<span id="areaOfStudy" class="strong">Area of Study</span>:
+						<span class="strong">Area of Study</span>:
 						System analysis, management and information processing<br />
-						<span id="degree" class="strong">Degree</span>: Master of technical sciences
+						<span class="strong">Degree</span>: Master of technical sciences
 					</div>
 				</div>
 				<div class="description">
@@ -198,7 +166,7 @@
 				</div>
 			</article>
 			<article class="experience">
-				<h2 id="experience">Experience</h2>
+				<h2 >Experience</h2>
 				<div class="description">
 					<div class="description__item1">
 						<b>07/2022 – <br />Instytut rolnictwa precyzyjnego sp. z o.o</b>
@@ -239,7 +207,7 @@
 				</div>
 			</article>
 			<article class="publications">
-				<h3 id="publications">Publications</h3>
+				<h3 >Publications</h3>
 				<p><b>Publisher:</b> Young scientist<br />
 					<b>Date:</b> 12/05/2017<br />
 					<b>Name:</b> The main types of polymers. The influence of their properties on the process of vacuum
@@ -248,14 +216,14 @@
 				</p>
 			</article>
 			<article class="interests">
-				<h3 id="interests">Interests</h3>
+				<h3 >Interests</h3>
 				<p><b>Mindfulness:</b> Yoga/Meditation, Hiking<br />
 					<b>Artificial Intelligence:</b> Machine Learning, Programming<br />
 					<b>Running:</b> Trail, OCR<br />
 				</p>
 			</article>
 			<article class="resolution">
-				<h3 id="resolution">Resolution</h3>
+				<h3 >Resolution</h3>
 				<!-- <p>
 					Wyrażam zgodę na przetwarzanie moich danych osobowych w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko.
 				</p> -->
