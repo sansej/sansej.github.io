@@ -1,3 +1,3 @@
-# sansej.github.io
-### sansej.github.io/cv.html
+# sansej_en.github.io
+### sansej_en.github.io/cv.html
 My CV
