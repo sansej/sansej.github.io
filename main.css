@@ -149,7 +149,7 @@ ul.linkedin {
 }
 
 #link:hover {
-  color: orange;
+  color: gray;
 }
 
 .works ul li+li {
@@ -235,7 +235,7 @@ ul.linkedin {
 }
 
 .footer__nav__list li a i.fab:hover {
-  color: orange;
+  color: gray;
 }
 
 .year-font {
